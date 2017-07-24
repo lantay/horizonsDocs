@@ -1,3 +1,4 @@
+//smart
 import MyEditor from './draftJsCode';
 import { connect } from 'react-redux';
 
@@ -17,7 +18,7 @@ class App extends React.Component {
       <MyEditor />
     )
   }
-
+}
   const mapStateToProps = (state) => ({
     //  someStateProp: /* state.something typically */
   });
